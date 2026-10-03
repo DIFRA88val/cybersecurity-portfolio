@@ -1,4 +1,6 @@
 # cybersecurity-portfolio
+![TryHackMe Badge](https://vercel.app)
+
 A portfolio documenting my hands-on labs, defensive security projects, and SOC analysis notes.
 # 🛡️ Cybersecurity Operations Portfolio
 
