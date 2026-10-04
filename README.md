@@ -21,6 +21,8 @@ Welcome to my defensive security and SOC analysis portfolio. This repository ser
 ## 📁 Practical Lab Directory
 
 ### 🟦 1. SOC Foundations & Log Analysis
+* [Computer Fundamentals](1-SOC-Foundations/computer-fundamentals.md) — *Completed Pre-Security hardware and baseline architecture logs.*
+* [Operating Systems Basics](1-SOC-Foundations/os-basics.md) — *Windows Server 2019 workstation baseline complete; proceeding to Linux architecture filters.*
 * [Linux File Path & Auth Log Filtering](1-SOC-Foundations/linux-log-filtering.md) — *Using regex and core utilities to parse authentication logs.*
 * [Windows Event Log Analysis](1-SOC-Foundations/windows-event-logs.md) — *Investigating privilege escalation and specific Event IDs.*
 
