@@ -21,10 +21,12 @@ Welcome to my defensive security and SOC analysis portfolio. This repository ser
 ## 📁 Practical Lab Directory
 
 ### 🟦 1. SOC Foundations & Log Analysis
-* [Computer Fundamentals](1-SOC-Foundations/computer-fundamentals.md) — *Completed Pre-Security hardware and baseline architecture logs.*
-* [Operating Systems Basics](1-SOC-Foundations/os-basics.md) — *Completed Pre-Security Windows Server triage and Linux CLI file navigation logs.*
-* [Linux File Path & Auth Log Filtering](1-SOC-Foundations/linux-log-filtering.md) — *Using regex and core utilities to parse authentication logs.*
-* [Windows Event Log Analysis](1-SOC-Foundations/windows-event-logs.md) — *Investigating privilege escalation and specific Event IDs.*
+1. SOC Foundations & Log Analysis
+*   [Windows CMD Fundamentals](./Windows-Basics/Windows_CMD_Fundamentals.md) — **[NEW]** Navigating file structures, unmasking hidden malware indicators, and collecting host telemetry using the Windows Command Prompt.
+*   Computer Fundamentals — Completed Pre-Security hardware and baseline architecture logs.
+*   Operating Systems Basics — Completed Pre-Security Windows Server triage and Linux CLI file navigation logs.
+*   Linux File Path & Auth Log Filtering — Using regex and core utilities to parse authentication logs.
+*   Windows Event Log Analysis — Investigating privilege escalation and specific Event IDs.
 
 ### 🟦 2. Threat Modeling & Management
 * [NIST SP 800-30 Risk Assessment Simulator](2-Threat-Management/risk-assessment.md) — *Quantitative risk calculations and auditing workflows.*
