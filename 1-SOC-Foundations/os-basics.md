@@ -1,33 +1,29 @@
 # 🖥️ TryHackMe Pre-Security: OS Basics
 
-## Course Progress: Module 3 — Windows Workstation Baseline (Completed)
+## Course Progress: Module 3 Complete (100%)
 
-Operational logs documenting Windows system architecture triage, core graphical interfaces, configuration settings, and defensive system tools using Windows Server 2019.
-
----
-
-## 🪟 Windows System Architecture & Triage Controls
-
-### 1. Account Authentication Levels
-*   **Administrator:** Highly privileged system account with unrestricted baseline rights to perform system configurations, script installations, and user permission tracking.
-*   **Standard User:** Accounts provisioned for everyday production tasks, isolated from making unauthorized system-wide alterations.
-*   **Guest Account:** Deeply restricted temporary context profile with minimal localized access parameters.
-
-### 2. Core Administrative Controls
-*   **Task Manager:** Primary monitoring tool used to evaluate active runtime system infrastructure processes, tracking CPU/RAM allocations to pinpoint anomalous behavior.
-*   **Windows Security & Firewall:** Central defensive dashboard managing automated file scanners, real-time file system integrity monitoring, and port filtering controls to restrict unauthorized network flows.
-*   **Control Panel & Settings:** Management consoles used to query device attributes, modify patch deployment, and audit local security policy configuration variables.
+Operational logs documenting Windows Server 2019 baseline configurations alongside Linux command-line architecture, file navigation, system metrics extraction, and configuration filtering.
 
 ---
 
-## 🔍 Module 3: Hands-On Workstation Audit
+## 🪟 Part 1: Windows Workstation Audit
+*   **Administrative Controls:** Navigated Windows Server 2019 architecture, triaged processes via Task Manager, and verified endpoint isolation policies within Windows Defender Firewall.
+*   **Directory Architecture:** Audited default deployment frameworks and absolute path directories (`C:\Users\Administrator\Desktop\TryHatMe Onboarding`).
 
-### 🖥️ TryHatMe Station Environment Profile
-*   **Workstation OS:** Windows Server 2019 Standard
-*   **Device Identification Name:** THM-WINSERVER
-*   **Key Path Discovered:** `C:\Users\Administrator\Desktop\TryHatMe Onboarding`
-*   **Primary Active Process Monitored:** Scan Viruses
-*   **Antivirus / Personal Firewall Status:** Working
+---
 
-### 📁 Lab Takeaways
-Successfully established an initial security baseline on a target enterprise machine. Managed file directory verification, audited active running system services via Task Manager, and inspected Windows Defender indicators to verify comprehensive endpoint isolation and defensive posture.
+## 🐧 Part 2: Linux CLI & Architecture Mastered
+
+### 1. File Navigation & Directory Discovery
+*   `pwd` / `cd`: Isolated absolute directory paths and executed horizontal path navigation.
+*   `ls -al`: Listed hidden system files, mapped ownership permissions, and tracked file modification timestamps.
+*   `cat`: Read raw configuration payloads directly from the standard input stream.
+
+### 2. Advanced Search & Diagnostics
+*   `find ~ -name <filename>`: Queried file structures natively from the user home directory space down through nested hierarchies.
+*   `whoami`: Extracted current terminal active execution context privilege profile.
+*   `uname -a`: Queried the underlying kernel platform architecture (`tryhackme` hostname, architecture types).
+*   `df -h`: Analyzed disk infrastructure parameters (`/dev/root` utilization blocks).
+
+### 3. Practical Configurations Triaged
+*   `cat /etc/os-release`: Located and parsed baseline Linux operating sys
