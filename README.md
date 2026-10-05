@@ -24,6 +24,7 @@ Welcome to my defensive security and SOC analysis portfolio. This repository ser
 ### 🟦 1. SOC Foundations & Log Analysis
 *   [Data Representation & Software Basics](./1-SOC-Foundations/Software-Basics/Data_Representation.md) — **[NEW]** Understanding binary, hexadecimal, ASCII encoding, and how computers represent structural telemetry data at the machine level.
 *   [Data Encoding Fundamentals](./1-SOC-Foundations/Software-Basics/Data_Encoding.md) — **[NEW]** Investigating character standards, mapping ASCII matrices, handling multi-byte translation anomalies, and analyzing regional character set discrepancies.
+*   [Python Automation & Basics](./1-SOC-Foundations/Python-Basics/Python_Scripting.md) — **[NEW]** Developing functional scripts, managing variables, tracing conditional execution flow (`if/elif/else`), and building automation baselines.
 
 *   [Windows CMD Fundamentals](./1-SOC-Foundations/Windows-Basics/Windows_CMD_Fundamentals.md) — **[NEW]** Navigating file structures, unmasking hidden malware indicators, and collecting host telemetry using the Windows Command Prompt.
 *   Linux OS Security Fundamentals](./1-SOC-Foundations/Windows-Basics/Linux_OS_Security.md) — **[NEW]** Deploying SSH configurations, auditing terminal command logs, and pivoting between multi-user account settings inside an unhardened Linux workspace.
