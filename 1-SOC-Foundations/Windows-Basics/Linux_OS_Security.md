@@ -50,3 +50,38 @@ Used when already logged into a shell session to switch instantly to another loc
 
 * **Target Directory Contents:** `country.txt`, `draft.md`, `icon.png`, `password.txt`, `profile.jpg`
 * **Security Insight (`draft.md` Analysis):** *"Reusing passwords means that your password for other sites becomes exposed if one service is hacked."*
+## 🕵️ Incident Investigation & Privilege Escalation
+
+### 1. Initial Credential Leak (`password.txt`)
+An audit of unhardened file objects inside the `sammie` directory revealed a plaintext list of vulnerable organizational credentials:
+* **Command:** `cat password.txt`
+* **Discovered Credential:** `johnny` account password mapped to `dragon`
+
+### 2. Privilege Pivoting to Johnny
+Using local lateral movement techniques, the analyst pivoted to the user account profile to investigate their terminal behaviors:
+```bash
+# Switch session context to johnny using the leaked credential
+su - johnny
+# Input password: dragon
+```
+
+### 3. Exploiting Operational Footprints (`history` Audit)
+Once logged in as `johnny`, the user's terminal execution history was audited to scan for accidental privilege leaks or miskeyed inputs:
+```bash
+# Display chronological terminal executions
+history
+```
+* **Discovery:** The user mistakenly typed the server's master administrative credentials directly into the shell prompt instead of a standard system directive.
+* **Root Password Compromised:** `letmeROOT`
+
+### 4. Root Elevation & Final Asset Retrieval
+Using the compromised administrative string, the analyst escalated to superuser access permissions to retrieve the system flag payload:
+```bash
+# Escalate execution privileges to the root master context
+su - root
+# Input password: letmeROOT
+
+# Print the final system target asset
+cat /root/flag.txt
+```
+* **System Flag Payload:** `THM-OS-SECURED`
