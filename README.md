@@ -23,6 +23,7 @@ Welcome to my defensive security and SOC analysis portfolio. This repository ser
 
 ### 🟦 1. SOC Foundations & Log Analysis
 *   [Windows CMD Fundamentals](./1-SOC-Foundations/Windows-Basics/Windows_CMD_Fundamentals.md) — **[NEW]** Navigating file structures, unmasking hidden malware indicators, and collecting host telemetry using the Windows Command Prompt.
+*   Linux OS Security Fundamentals](./1-SOC-Foundations/Windows-Basics/Linux_OS_Security.md) — **[NEW]** Deploying SSH configurations, auditing terminal command logs, and pivoting between multi-user account settings inside an unhardened Linux workspace.
 *   Computer Fundamentals — Completed Pre-Security hardware and baseline architecture logs.
 *   Operating Systems Basics — Completed Pre-Security Windows Server triage and Linux CLI file navigation logs.
 *   Linux File Path & Auth Log Filtering — Using regex and core utilities to parse authentication logs.
