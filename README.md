@@ -60,5 +60,3 @@ Ambitious **Australian Citizen** and aspiring **SOC Analyst** equipped with hand
 *   **Cisco Networking Basics** — Completed
 *   **Google Cybersecurity Professional Certificate** — Completed
 *   **TryHackMe Pre-Security & SOC Level 1** — *In Progress*
-
-
