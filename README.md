@@ -22,6 +22,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 | **Infrastructure & Filtering** | Linux CLI, Windows Event Logs, Windows CMD Telemetry, SQL Queries |
 | **Core Frameworks** | CIA Triad, NIST CSF / SP 800-30, Threat Modeling, Vulnerability Management |
 | **Automation & Dev** | Python Scripting, JavaScript Basics, Node.js Automation Baselines |
+| **Offensive Security** | Penetration Testing Methodology, Gobuster Enumeration, Scoping |
 
 ---
 
@@ -56,6 +57,9 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **The Foundations of Security (CIA Triad)** — Implementing the core pillars of security risk posture alignment, analyzing compromise models, and establishing defensive priority triage mindsets.
 * **Symmetric Encryption & Cryptography** — Dissecting plaintext/ciphertext transformations, analyzing legacy shift ciphers, and evaluating symmetric key distribution limitations.
 
+### 🟦 6. Offensive Security & Penetration Testing
+* **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
+
 ---
 
 ## 📈 Professional Roadmap & Training
@@ -64,3 +68,4 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * 🏆 **Cisco Networking Basics** — Completed
 * 🏆 **Google IT Support Professional Certificate** — Completed
 * ⚡ **TryHackMe Pre-Security & SOC Level 1** — *In Progress*
+
