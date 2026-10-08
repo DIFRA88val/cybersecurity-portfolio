@@ -60,6 +60,10 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 ### 🟦 6. Offensive Security & Penetration Testing
 * **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
 
+### 🟦 7. Defensive Security Architecture & Asset Visibility
+* **Introduction to Defensive Operations & Asset Mapping** — Analyzing enterprise environments through architectural mapping methodologies. Applying the fundamental operational lifecycles of **Prevention, Detection, Mitigation, Analysis, and Response** to secure client infrastructure boundaries.
+* **Blue Team Infrastructure Security** — Mapping conceptual asset topologies to real-world infrastructure equivalents, establishing log baseline architectures, and identifying anomalous indicators across employee endpoints, web services, and firewall perimeters to maintain the **CIA Triad**.
+
 ---
 
 ## 📈 Professional Roadmap & Training
