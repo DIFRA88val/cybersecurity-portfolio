@@ -34,6 +34,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **Windows CMD Fundamentals** — Navigating system structures, unmasking hidden malware indicators, and collecting host telemetry using the native Command Prompt.
 * **Linux OS Security Fundamentals** — Deploying secure SSH configurations, auditing terminal command histories, and managing multi-user access permissions inside unhardened environments.
 * **Search Skills & Threat Intelligence** — Utilizing advanced search operators (Google Dorking), leveraging specialized threat infrastructure indices (`Shodan`, `VirusTotal`), and executing terminal lookups with Linux manual pages (`man`).
+* **Linux Core Fundamentals Master Matrix (Parts 1-3)** — Deep dive into system identity commands, high-efficiency log fuzzing (`grep`/`find`), system redirection streams (`>>`), session switching layouts (`su -l`), and symbolic permission calculations.
 
 
 ### 🟦 2. Networking Architecture & Perimeter Defense
