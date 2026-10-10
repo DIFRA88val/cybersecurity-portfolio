@@ -33,6 +33,8 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **Linux File Path & Auth Log Filtering** — Using regex and core command-line utilities (`grep`, `awk`, `sed`) to parse authentication logs and identify brute-force indicators.
 * **Windows CMD Fundamentals** — Navigating system structures, unmasking hidden malware indicators, and collecting host telemetry using the native Command Prompt.
 * **Linux OS Security Fundamentals** — Deploying secure SSH configurations, auditing terminal command histories, and managing multi-user access permissions inside unhardened environments.
+* **Search Skills & Threat Intelligence** — Utilizing advanced search operators (Google Dorking), leveraging specialized threat infrastructure indices (`Shodan`, `VirusTotal`), and executing terminal lookups with Linux manual pages (`man`).
+
 
 ### 🟦 2. Networking Architecture & Perimeter Defense
 * **TCP/IP Mechanics & Three-Way Handshakes** — Dissecting packet unit encapsulation boundaries, parsing header flags, and tracing sequence tracking parameters.
