@@ -20,11 +20,13 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 | **Security Operations** | SIEM Log Analysis, Alert Triage, Incident Response Fundamentals |
 | **Analysis & Detection** | Wireshark Packet Inspection, Splunk Triage, Snort (IDS concepts) |
 | **Infrastructure & Filtering** | Linux CLI, Windows Event Logs, Windows CMD Telemetry, SQL Queries |
-| **Core Frameworks** | CIA Triad, NIST CSF / SP 800-30, Threat Modeling, Vulnerability Management |
+| **Core Frameworks** | CIA Triad, NIST CSF / SP 800-30, Threat Modeling, Identity Management (IAM) |
 | **Automation & Dev** | Python Scripting, JavaScript Basics, Node.js Automation Baselines |
-| **Offensive Security** | Penetration Testing Methodology, Gobuster Enumeration, Scoping |
+| **Offensive Security** | Penetration Testing Methodology, Gobuster Enumeration, Hydra Brute-Forcing |
 
 ---
+
+## 📁 Practical Lab Directory
 
 ### 🟦 1. Incident Response, Telemetry & Log Analysis
 * **Windows Event Log Analysis** — Investigating privilege escalation, tracking specific Event IDs, and analyzing malicious operational behavior.
@@ -32,37 +34,39 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **Windows CMD Fundamentals** — Navigating system structures, unmasking hidden malware indicators, and collecting host telemetry using the native Command Prompt.
 * **Linux OS Security Fundamentals** — Deploying secure SSH configurations, auditing terminal command histories, and managing multi-user access permissions inside unhardened environments.
 * **Search Skills & Threat Intelligence** — Utilizing advanced search operators (Google Dorking), leveraging specialized threat infrastructure indices (`Shodan`, `VirusTotal`), and executing terminal lookups with Linux manual pages (`man`).
-* **Linux Core Fundamentals Master Matrix (Parts 1-3)** — Deep dive into system identity commands, high-efficiency log fuzzing (`grep`/`find`), system redirection streams (`>>`), session switching layouts (`su -l`), and symbolic permission calculations.
-* **Windows Architecture & File System Internals (Part 1)** — Documenting the structural core of **NTFS journaling fields**, setting granular **DACL permissions**, uncovering hidden file parameters via **Alternate Data Streams (ADS)**, implementing **User Account Control (UAC)** split-token isolation, and auditing baseline applications using **Programs and Features**.
-* **Windows System Diagnostic & Management Matrix (Part 2)** — Documenting diagnostic triage utilizing **System Configuration (MSConfig)**, auditing automated task persistence via **Task Scheduler**, investigating host security trails using **Event Viewer**, tracking real-time network process sockets with **Resource Monitor (`resmon`)**, and executing active host identity/connection triage using **CLI diagnostic binaries (`ipconfig`, `netstat`, `net user`)**.
+* **[Linux Core Fundamentals Master Matrix (Parts 1-3)](./1-SOC-Foundations/linux-fundamentals-matrix.md)** — Deep dive into system identity commands, high-efficiency log fuzzing (`grep`/`find`), system redirection streams (`>>`), session switching layouts (`su -l`), absolute octal permission math (`755`/`644`), and a security breakdown of the root file layout (`/etc`, `/var/log`, `/tmp`).
+* **[Windows Architecture & Diagnostics Matrix (Parts 1-3)](./Windows-Basics/windows-fundamentals-matrix.md)** — Documenting the structural core of **NTFS journaling fields**, setting granular **DACL permissions**, uncovering hidden parameters via **Alternate Data Streams (ADS)**, implementing **User Account Control (UAC)** split-token isolation, tracking network sockets with **Resource Monitor**, and auditing baseline applications via **MSConfig**.
 
-### 🟦 2. Networking Architecture & Perimeter Defense
+### 🟦 2. Identity Management & Enterprise Directory Security
+* **[Active Directory Domain Services (AD DS) Infrastructure](./Identity-Management/active-directory-basics.md)** — Documenting centralized identity scaling models, auditing **Security Principals (Users, Group Profiles, and Machine Accounts)**, implementing the principle of least privilege through **Organizational Unit (OU) Control Delegation**, establishing rigid **GPO Hardening Templates** (Prohibiting Control Panel Access and enforcing **Inactivity Session Lockouts**), and managing network authentication protocols (**Kerberos vs. NetNTLM**) alongside multi-domain forest trust architectures.
+
+### 🟦 3. Networking Architecture & Perimeter Defense
 * **TCP/IP Mechanics & Three-Way Handshakes** — Dissecting packet unit encapsulation boundaries, parsing header flags, and tracing sequence tracking parameters.
 * **Network Perimeter Defense (Firewalls & VPNs)** — Engineering firewall traffic filtering policy arrays, implementing port forwarding traversal, and analyzing encrypted data tunnel protocols.
 * **DNS Core Architecture & Hierarchy** — Mapping domain structural layouts (TLDs, SLDs), tracing iterative lookups, and auditing DNS record attributes (`A`, `AAAA`, `CNAME`, `MX`, `TXT`).
 * **Host Addressing & LAN Topologies** — Distinguishing private vs. public routing perimeters, mapping subnet allocation zones, and auditing MAC addresses for hardware spoofing detection.
 * **OSI 7-Layer Framework** — Dissecting structural data encapsulation paths, analyzing TCP/UDP stream variance, and tracing session state logic.
 
-### 🟦 3. Application Security & Infrastructure Baselines
+### 🟦 4. Application Security & Infrastructure Baselines
 * **Web Infrastructure & Requests** — Dissecting URL syntax anatomy, parsing request/response transactional headers, and auditing server status codes.
 * **Introduction to Web Development & Client-Side Flaws** — Analyzing frontend source code disclosure, dissecting DOM execution, and documenting input sanitization vulnerabilities like HTML Injection.
 * **Full-Stack Enterprise Web Architecture** — Evaluating edge distribution infrastructure (Load Balancers, CDNs, WAFs), auditing web server daemons, and tracking static vs. dynamic backend boundaries.
 * **Data Representation & Encoding** — Investigating machine-level structures including binary, hexadecimal, ASCII matrices, multi-byte translation anomalies, and regional character set variations.
 * **Database Infrastructure & SQL Filtering** — Relational table architecture management and engineering filtered/sorted data queries (`SELECT`, `WHERE`, `ORDER BY`).
 
-### 🟦 4. Automation & Scripting
+### 🟦 5. Automation & Scripting
 * **Python Automation & Scripting** — Developing functional tools, managing environment variables, and tracing conditional logic flows (`if/elif/else`) to build automation baselines.
 * **JavaScript Foundations & Node.js** — Investigating client-side vs. server-side execution frameworks and utilizing Node.js for terminal task automation.
 
-### 🟦 5. Threat Modeling & Governance
+### 🟦 6. Threat Modeling & Governance
 * **NIST SP 800-30 Risk Assessment Simulator** — Executing quantitative risk calculations, calculating ALE/SLE metrics, and implementing corporate auditing workflows.
 * **The Foundations of Security (CIA Triad)** — Implementing the core pillars of security risk posture alignment, analyzing compromise models, and establishing defensive priority triage mindsets.
 * **Symmetric Encryption & Cryptography** — Dissecting plaintext/ciphertext transformations, analyzing legacy shift ciphers, and evaluating symmetric key distribution limitations.
 
-### 🟦 6. Offensive Security & Penetration Testing
+### 🟦 7. Offensive Security & Penetration Testing
 * **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
 
-### 🟦 7. Defensive Security Architecture & Asset Visibility
+### 🟦 8. Defensive Security Architecture & Asset Visibility
 * **Introduction to Defensive Operations & Asset Mapping** — Analyzing enterprise environments through architectural mapping methodologies. Applying the fundamental operational lifecycles of **Prevention, Detection, Mitigation, Analysis, and Response** to secure client infrastructure boundaries.
 * **Blue Team Infrastructure Security** — Mapping conceptual asset topologies to real-world infrastructure equivalents, establishing log baseline architectures, and identifying anomalous indicators across employee endpoints, web services, and firewall perimeters to maintain the **CIA Triad**.
 
@@ -74,4 +78,5 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * 🏆 **Cisco Networking Basics** — Completed
 * 🏆 **Google IT Support Professional Certificate** — Completed
 * ⚡ **TryHackMe Pre-Security & SOC Level 1** — *In Progress*
+
 
