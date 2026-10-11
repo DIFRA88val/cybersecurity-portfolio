@@ -26,8 +26,6 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 
 ---
 
-## 📁 Practical Lab Directory
-
 ### 🟦 1. Incident Response, Telemetry & Log Analysis
 * **Windows Event Log Analysis** — Investigating privilege escalation, tracking specific Event IDs, and analyzing malicious operational behavior.
 * **Linux File Path & Auth Log Filtering** — Using regex and core command-line utilities (`grep`, `awk`, `sed`) to parse authentication logs and identify brute-force indicators.
@@ -35,6 +33,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **Linux OS Security Fundamentals** — Deploying secure SSH configurations, auditing terminal command histories, and managing multi-user access permissions inside unhardened environments.
 * **Search Skills & Threat Intelligence** — Utilizing advanced search operators (Google Dorking), leveraging specialized threat infrastructure indices (`Shodan`, `VirusTotal`), and executing terminal lookups with Linux manual pages (`man`).
 * **Linux Core Fundamentals Master Matrix (Parts 1-3)** — Deep dive into system identity commands, high-efficiency log fuzzing (`grep`/`find`), system redirection streams (`>>`), session switching layouts (`su -l`), and symbolic permission calculations.
+* **Windows Architecture & File System Internals (Parts 1-3)** — Documenting the structural core of **NTFS journaling fields**, setting granular **DACL permissions**, uncovering hidden file parameters via **Alternate Data Streams (ADS)**, implementing **User Account Control (UAC)** split-token isolation, and auditing baseline applications using **Programs and Features**.
 
 
 ### 🟦 2. Networking Architecture & Perimeter Defense
