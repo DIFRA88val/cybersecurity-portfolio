@@ -49,6 +49,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **DNS Core Architecture & Hierarchy** — Mapping domain structural layouts (TLDs, SLDs), tracing iterative lookups, and auditing DNS record attributes (`A`, `AAAA`, `CNAME`, `MX`, `TXT`).
 * **Host Addressing & LAN Topologies** — Distinguishing private vs. public routing perimeters, mapping subnet allocation zones, and auditing MAC addresses for hardware spoofing detection.
 * **OSI 7-Layer Framework** — Dissecting structural data encapsulation paths, analyzing TCP/UDP stream variance, and tracing session state logic.
+* **[ISO/OSI 7-Layer Networking Architecture](./Network-Basics/osi-model-framework.md)** — Documenting the comprehensive **7-Layer OSI Reference Architecture**, analyzing layer-3 logical addressing configurations (**IPv4 CIDR mappings and RFC 1918 Private Ranges**), tracing the execution of the stateful **TCP Three-Way Handshake (`SYN`, `SYN-ACK`, `ACK`)**, documenting downward **Data Encapsulation lifecycles**, and executing manual layer-7 application banner grabs using raw teletype network streams (**`telnet` protocol over Ports 7, 13, and 80**).
 
 ### 🟦 4. Application Security & Infrastructure Baselines
 * **Web Infrastructure & Requests** — Dissecting URL syntax anatomy, parsing request/response transactional headers, and auditing server status codes.
