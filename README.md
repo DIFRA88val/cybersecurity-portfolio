@@ -70,6 +70,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 
 ### 🟦 7. Offensive Security & Penetration Testing
 * **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
+* **[Network Reconnaissance & Nmap Matrix](./1-SOC-Foundations/Network-Basics/nmap-reconnaissance-matrix.md)** — Documenting target scope notations, parsing Layer 2 local ARP sweeps against Layer 3 remote discovery probes, analyzing **TCP Connect Scans (`-sT`)** vs. **Stealth half-open SYN scans (`-sS`)**, executing UDP service discovery (`-sU`), auditing OS fingerprinting parameters, implementing **Evasion Timing Templates (`-T0` through `-T5`)**, configuring parallel packet throttling limits, and generating multi-format automation logs utilizing **XML and Grepable reporting switches (`-oA`)**.
 
 ### 🟦 8. Defensive Security Architecture & Asset Visibility
 * **Introduction to Defensive Operations & Asset Mapping** — Analyzing enterprise environments through architectural mapping methodologies. Applying the fundamental operational lifecycles of **Prevention, Detection, Mitigation, Analysis, and Response** to secure client infrastructure boundaries.
