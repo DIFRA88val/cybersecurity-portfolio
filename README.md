@@ -68,6 +68,7 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **NIST SP 800-30 Risk Assessment Simulator** — Executing quantitative risk calculations, calculating ALE/SLE metrics, and implementing corporate auditing workflows.
 * **The Foundations of Security (CIA Triad)** — Implementing the core pillars of security risk posture alignment, analyzing compromise models, and establishing defensive priority triage mindsets.
 * **Symmetric Encryption & Cryptography** — Dissecting plaintext/ciphertext transformations, analyzing legacy shift ciphers, and evaluating symmetric key distribution limitations.
+* **[Vulnerability Analysis: CVE-2024-21413 Moniker Link Bug](./2-Threat-Management/Exploitation-Basics/moniker-link-cve-2024-21413.md)** — Documenting CVSSv3 metrics, dissecting the technical root cause of **Outlook Protected View bypasses**, simulating **NetNTLMv2 credential harvesting loops via Python PoC scripts**, capturing live wire transactions using **`Responder` on Port 445**, writing custom **YARA behavioral text-scanning rules**, and establishing network perimeter defense controls to block outbound **TCP Port 445** traffic.
 
 ### 🟦 7. Offensive Security & Penetration Testing
 * **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
