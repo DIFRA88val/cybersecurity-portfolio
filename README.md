@@ -51,32 +51,33 @@ Ambitious Australian Citizen and aspiring SOC Analyst equipped with hands-on fou
 * **[Networking Essentials Matrix](./1-SOC-Foundations/Network-Basics/networking-essentials-matrix.md)** — Documenting automated asset allocation lifecycles using the **DHCP "DORA" Sequence**, parsing Layer 2 address translation frames via **Address Resolution Protocol (ARP)**, executing tactical path enumeration using **ICMP Type 11 Time Exceeded routing behavior (`traceroute`)**, analyzing convergence protocols (**OSPF, BGP, RIP**), and dissecting perimeter connection tracking workflows utilizing **Stateful NAT Translation Tables**.
 * **[Network Core Protocols Manual](./1-SOC-Foundations/Network-Basics/network-core-protocols.md)** — Documenting **Layer 7 DNS record types (`A`, `AAAA`, `CNAME`, `MX`)** and tracking query lookups via `tshark`, auditing asset ownership using **WHOIS directory trails**, parsing unrendered web application headers and **HTTP/HTTPS verbs**, evaluating dual-channel data segregation over **FTP**, and dissecting cleartext communication risks across legacy email routing infrastructures (**SMTP, POP3, and IMAP**).
 * **[Network Secure Protocols & TLS Matrix](./1-SOC-Foundations/Network-Basics/network-secure-protocols.md)** — Documenting the historical evolution from cleartext transmission states to **Transport Layer Security (TLS 1.3)** boundaries, implementing **Public Key Infrastructure (PKI) digital certificate verification**, parsing unrendered **HTTPS encrypted application data blocks**, analyzing secure terminal authentication controls (**OpenSSH, asymmetric key verification, and X11 visual forwarding**), mapping secure file moving constraints (**SFTP vs FTPS over TCP Port 990**), evaluating enterprise network encapsulation tunnels (**VPN Virtualization vs Privacy**), and executing localized **Wireshark TLS Pre-Master-Secret key decryption forensics**.
-
-
-### 🟦 4. Application Security & Infrastructure Baselines
+🟦 4. Application Security & Infrastructure Baselines
 * **Web Infrastructure & Requests** — Dissecting URL syntax anatomy, parsing request/response transactional headers, and auditing server status codes.
 * **Introduction to Web Development & Client-Side Flaws** — Analyzing frontend source code disclosure, dissecting DOM execution, and documenting input sanitization vulnerabilities like HTML Injection.
 * **Full-Stack Enterprise Web Architecture** — Evaluating edge distribution infrastructure (Load Balancers, CDNs, WAFs), auditing web server daemons, and tracking static vs. dynamic backend boundaries.
 * **Data Representation & Encoding** — Investigating machine-level structures including binary, hexadecimal, ASCII matrices, multi-byte translation anomalies, and regional character set variations.
 * **Database Infrastructure & SQL Filtering** — Relational table architecture management and engineering filtered/sorted data queries (`SELECT`, `WHERE`, `ORDER BY`).
 
-### 🟦 5. Automation & Scripting
+🟦 5. Automation & Scripting
 * **Python Automation & Scripting** — Developing functional tools, managing environment variables, and tracing conditional logic flows (`if/elif/else`) to build automation baselines.
 * **JavaScript Foundations & Node.js** — Investigating client-side vs. server-side execution frameworks and utilizing Node.js for terminal task automation.
 
-### 🟦 6. Threat Modeling & Governance
+🟦 6. Threat Modeling & Governance
 * **NIST SP 800-30 Risk Assessment Simulator** — Executing quantitative risk calculations, calculating ALE/SLE metrics, and implementing corporate auditing workflows.
 * **The Foundations of Security (CIA Triad)** — Implementing the core pillars of security risk posture alignment, analyzing compromise models, and establishing defensive priority triage mindsets.
 * **Symmetric Encryption & Cryptography** — Dissecting plaintext/ciphertext transformations, analyzing legacy shift ciphers, and evaluating symmetric key distribution limitations.
+
+🟦 7. Vulnerability Analysis & Exploitation Mechanics
 * **[Vulnerability Analysis: CVE-2024-21413 Moniker Link Bug](./2-Threat-Management/Exploitation-Basics/moniker-link-cve-2024-21413.md)** — Documenting CVSSv3 metrics, dissecting the technical root cause of **Outlook Protected View bypasses**, simulating **NetNTLMv2 credential harvesting loops via Python PoC scripts**, capturing live wire transactions using **`Responder` on Port 445**, writing custom **YARA behavioral text-scanning rules**, and establishing network perimeter defense controls to block outbound **TCP Port 445** traffic.
+* **[The Metasploit Framework Guide](./2-Threat-Management/Exploitation-Basics/metasploit-framework-fundamentals.md)** — Documenting centralized modular penetration testing platforms, defining operational boundaries for threat primitives (**Vulnerabilities, Exploits, and Payloads**), mapping directory architecture trees (**Auxiliary, Encoders, Evasion, Exploits, NOPs, and Payloads**), analyzing inline vs. staged payload notation indicators, triaging context-driven parameters via **`show options`**, researching memory corruption parameters inside **MS17-010 EternalBlue**, configuring global variables via **`setg` / `unsetg`**, and executing advanced multi-concurrency session tracking macros.
 
-### 🟦 7. Offensive Security & Penetration Testing
+🟦 8. Offensive Security & Penetration Testing
 * **Introduction to Offensive Security & Ethical Hacking** — Dissecting pentesting terminology (Red Teaming, Scope, Vulnerabilities, Exploits) and utilizing automated tools like `gobuster` for web content discovery and directory enumeration.
-* **[Network Reconnaissance & Nmap Matrix](./1-SOC-Foundations/Network-Basics/nmap-reconnaissance-matrix.md)** — Documenting target scope notations, parsing Layer 2 local ARP sweeps against Layer 3 remote discovery probes, analyzing **TCP Connect Scans (`-sT`)** vs. **Stealth half-open SYN scans (`-sS`)**, executing UDP service discovery (`-sU`), auditing OS fingerprinting parameters, implementing **Evasion Timing Templates (`-T0` through `-T5`)**, configuring parallel packet throttling limits, and generating multi-format automation logs utilizing **XML and Grepable reporting switches (`-oA`)**.
+* **[Network Reconnaissance & Nmap Matrix](./1-SOC-Foundations/Network-Basics/nmap-reconnaissance-matrix.md)** — Documenting target scope notations, parsing Layer 2 local ARP sweeps against Layer 3 remote discovery probes, analyzing TCP Connect Scans (`-sT`) vs. Stealth half-open SYN scans (`-sS`), executing UDP service discovery (`-sU`), auditing OS fingerprinting parameters, implementing Evasion Timing Templates (`-T0` through `-T5`), configuring parallel packet throttling limits, and generating multi-format automation logs utilizing XML and Grepable reporting switches (`-oA`).
 
-### 🟦 8. Defensive Security Architecture & Asset Visibility
-* **Introduction to Defensive Operations & Asset Mapping** — Analyzing enterprise environments through architectural mapping methodologies. Applying the fundamental operational lifecycles of **Prevention, Detection, Mitigation, Analysis, and Response** to secure client infrastructure boundaries.
-* **Blue Team Infrastructure Security** — Mapping conceptual asset topologies to real-world infrastructure equivalents, establishing log baseline architectures, and identifying anomalous indicators across employee endpoints, web services, and firewall perimeters to maintain the **CIA Triad**.
+🟦 9. Defensive Security Architecture & Asset Visibility
+* **Introduction to Defensive Operations & Asset Mapping** — Analyzing enterprise environments through architectural mapping methodologies. Applying the fundamental operational lifecycles of Prevention, Detection, Mitigation, Analysis, and Response to secure client infrastructure boundaries.
+* **Blue Team Infrastructure Security** — Mapping conceptual asset topologies to real-world infrastructure equivalents, establishing log baseline architectures, and identifying anomalous indicators across employee endpoints, web services, and firewall perimeters to maintain the CIA Triad.
 
 ---
 
